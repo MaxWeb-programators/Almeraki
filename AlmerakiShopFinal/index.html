@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>AlmerakiShop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	
+<link  rel="icon"   href="img/Favicon.png" type="image/png" />
+<link  rel="icon"   href="img/Favicon.png">
+	<link rel="stylesheet" href="style.css" >
+	
+	<!--[if (gte IE 6)&(lte IE 8)]>
+	  <script type="text/javascript" src="js/selectivizr-min.js"></script>
+	  <script type="text/javascript" src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+ 
+<body>
+	
+	<source src="Almeraki.svg" type="svg" />
+
+	<script language="JavaScript"> 
+        !-- Begin
+        function right(e) { 
+        var msg = " ¡ No permitido ! Por favor ingresa tu nombre de USUARIO y tu CLAVE de lo contrario deja vacio las casillas y presiona ENTRAR. "; 
+        if (navigator.appName == 'Netscape' && e.which == 3) { 
+        alert(msg); // Delete this line to disable but not alert user 
+        return false; 
+        } 
+        else 
+        if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) { 
+        alert(msg); // Delete this line to disable but not alert user 
+        return false; 
+        } 
+        return true; 
+        } 
+        document.onmousedown = right; 
+        // End --> 
+        </script>
+    
+	<header id="main-header" class="container cf">
+		
+		<div class="logo-header">
+			<h1 class="logo"><img src="img/Logo almeraki.png" alt="logo" width="306" height="37"></h1>
+			<h2 class="slogan"></h2>
+		</div><!-- /#logo-header -->
+		
+		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+		
+		<nav id="main-menu" role="navigation" class="closed">
+			<ul>
+				<li class="featured"><a href="index.html">Home</a></li>
+				<li class="featured"><a href="Carrito-Compras-JavaScript-0.0.0 2/Productos+carrito.html">Productos</a></li>
+				<li class="featured"><a href="help.html">Centro de Ayuda</a></li>
+				<li class="featured"><a href="contacto.html">Locales de retiro</a></li>
+				<li class="featured"><a href="login.html">Iniciar sesión/registrarse</a></li>
+			</ul>
+		</nav><!-- /#main-menu -->
+		
+	</header><!-- /#main-header -->
+	
+	<main id="content-area">
+	
+
+		<section id="hero-container">
+			
+			<article id="hero" class="container">
+				<span class="dispositivos"><img src="img/" alt="home-dispositivos"></span>
+				<header>
+					<h2>¡Hemos abierto nuestra nueva tienda online!</h2>
+	</header>
+				<p>Ahora con AlmerakiShop podras vender cosas con todos tus amigos compañeros e ¡incluso con toda la escuelita!</p>
+				<a href="help.html" class="btn">Centro de ayuda</a> 
+				<a href="Carrito-Compras-JavaScript-0.0.0 2/Productos+carrito.html" class="btn">Nuestros Productos</a>
+			</article>
+			
+<section>  
+		
+		
+			
+			<div class="cols cf">>
+				<div class="container">
+			<h1> ¡Escúchalo!</h1>
+			<h3>The playlist in one:</h3>
+			<h5>By IansitoMusicStudio</h5>
+			<audio src="mp3/Premium Playlist.mp3" play controls/>
+
+
+
+
+
+					
+				</div>
+
+            </section>
+				
+
+
+		
+			</div><!-- /.slides -->
+		</div><!-- /.flexslider -->
+		
+	</aside><!-- /#testimonios-area -->
+
+	
+	
+	
+	<footer id="main-footer">
+		
+		<div class="footer-call-to-action">
+			
+		</div><!-- /.footer-call-to-action -->
+		
+		<div id="bottom-footer" class="container cf">
+			
+			<div class="copyright">
+			</div><!-- /.copyright -->
+			
+			<nav id="footer-menu">
+
+
+			</nav><!-- /#footer-menu -->
+			
+		</div><!-- /#bottom-footer -->
+		
+	</footer><!-- /#main-footer -->
+
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/rem.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+	<script>
+		jQuery('document').ready(function($){
+		
+			$('.flexslider').flexslider({
+				selector: ".slides > .testimonio",
+				animation: "slide",
+				controlNav: false,
+				directionNav: true,
+				prevText: "Anterior",
+				nextText: "Siguiente", 
+			});
+		
+		});
+	</script>
+	
+</body>
+</html>
